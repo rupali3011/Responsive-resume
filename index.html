@@ -1,34 +1,156 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>simple calculator</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <main class="calc">
-    <form name="forms">
-    <div class="container">
-    <input type="text" name="display" id="operator"><br>
-<input type="button" id="operator0" value="7"onclick="forms.display.value+='7' ">
-<input type="button" id="operator1" value="8"onclick="forms.display.value+='8' ">
-<input type="button" id="operator2" value="9"onclick="forms.display.value+='9' " >
-<input type="button" id="operator3" value="/"onclick="forms.display.value+='/' " ><br>
-<input type="button" id="operator4" value="4"onclick="forms.display.value+='4'">
-<input type="button" id="operator5" value="5"onclick="forms.display.value+='5' ">
-<input type="button" id="operator6" value="6"onclick="forms.display.value+='6' ">
-<input type="button" id="operator7" value="*"onclick="forms.display.value+='*' ">><br>
-<input type="button" id="operator8" value="1"onclick="forms.display.value+='1' ">
-<input type="button" id="operator9" value="2"onclick="forms.display.value+='2' ">
-<input type="button" id="operator10" value="3"onclick="forms.display.value+='3' ">
-<input type="button" id="operator11" value="-"onclick="forms.display.value+='-' "><br>
-<input type="button" id="operator12" value="."onclick="forms.display.value+='.' ">
-<input type="button" id="operator13" value="0"onclick="forms.display.value+='0' ">
-<input type="button" id="operator14" value="Clear"onclick="forms.display.value ='' ">
-<input type="button" id="operator15" value="+"onclick="forms.display.value+='+' ">
-<input type="button" id="operator16" value="="onclick="forms.display.value= eval(forms.display.value) ">
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <main class="main-content" contenteditable="true">
+        <section class="left-section">
+            <div class="left-content">
+                <!-- Write code for the left section here -->
+                <div class="profile-details">
+                    <div class="profile">
+                        <img class="profile-image"
+                        src="https://i1.sndcdn.com/avatars-000655118672-xb0aun-t500x500.jpg"alt="profile-pic">
+                    </div>
+                    <h2 class="name" style="color: black;">Rupali Patil</h2>
+                    <h4 class="designation" style="color: blue;">Web Develeoper</h4>
+                    <hr />
+                    <p class="description" style="color: chocolate;">Watching Movies | Travel | Cooking</p>
                 </div>
-            </form>
-        </main>
-    </body>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="social-media">
+                            <li class="icon">
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li class="icon">
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li class="icon">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="icon">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                        </div>
+                        <div class="personal-details">
+                            <li class="icon">
+                                <i class="fa fa-envelope"> pawarrupali229@gmail.com</i>
+                            </li>
+                            <li class="icon"><i class="fa fa-phone"> +91 7030801425</i></li>
+                            <li class="icon">
+                                <i class="fa fa-map-marker"> Maharashtra, India</i>
+                            </li>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <div class="skills">
+                    <h2 class="skills-title">Skills</h2>
+                    <div class="skills-content">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>Javascript</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>Java</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>SQL</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+
+                <!-- Write code for the right section here -->
+                <section class="about sect">
+                    <h2 class="right-titel">* About me:-</h2>
+                    <p class="para">
+                        My Name is Rupali Patil.
+                        I'm from Sangli. I like to cooking.
+                    </p>
+                </section>
+                <section class="education sect">
+                    <h2 class="right-titel">* Education:-</h2>
+                    <p class="para">
+                        I have completed BE Electronics from Tatyasaheb Kore Institute of Engineering and Technology,Warananagar
+                        and I have completed my 12<sup>th</sup> from P.V.P college Kavathe Mahankal.
+                    </p>
+                </section>
+                <section class="experinces sect">
+                    <h2 class="right-titel">* Experience:-</h2>
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                        nobis aliquam sit laudantium sint hic voluptatem non inventore
+                        iusto animi voluptas nisi praesentium perferendis, assumenda
+                        veniam nemo iste laboriosam. Culpa?
+                    </p>
+                </section>
+                <section class="projects">
+                    <h2 class="right-titel">* Projects:-</h2>
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Voluptate voluptates harum delectus tenetur et repellendus, qui
+                        consequuntur, suscipit aspernatur quas nisi vero eaque, saepe
+                        dicta? Fugiat quia quibusdam eligendi exercitationem!
+                    </p>
+                    <p>
+                        -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+                    </p>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>

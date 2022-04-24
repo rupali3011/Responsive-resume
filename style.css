@@ -1,36 +1,117 @@
 *{
-       margin:0;
-       padding:0;
-       outline: none;
-       box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-main{display:flex;text-align: center;justify-content: center;
-       align-items:center;min-height:100vh}
-.container{
-       width:350px;
-       height:360px;
-       background-color: black;
-       border-radius: 20px;
+
+/* Write CSS code below */
+body{
+    background-color: #9dd6ec;
 }
-input[type="text"]{
-       height:60px;
-       width:295px;
-       margin-top:40px;
-       border:1px solid red;
-       border-radius:8px;
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    /* grid-template-rows: 20% 00%; */
+    grid-template-columns: 300px 700px;
 }
-input[type="button"]{
-       width:60px;height:40px;margin:5px;
-       border-radius:8px;
+/* Left Section */
+.left-section{
+    grid-column: span 1;
+    background-color: #b3b7e7;
 }
-input#operator16{
-       width:280px;
-       height:40px;
-       background-color:turquoise;
+.left-content{
+    padding: 1rem;
 }
-input[type="button"]:hover{
-       transition:0.5s;
-       background-color:blueviolet;
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px solid #fff;
+    border-radius: 30%;
+    width: 60%;
+    height: auto;
 }
-input#operator14{background-color:#ff1a1a;
+.name{
+   font-size: 1.2rem;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.02px;
+   padding: 00.8rem;
+   color: #f5f5f5;
 }
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 00.5rem;
+    color: #94d9ea;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: #f5f5f5;
+}
+.contact-item{
+    padding: 1rem;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.icon{
+    margin: 0.2rem;
+    padding: 0.5rem;
+    color:#f5f5f5;
+    font-weight: 400;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: #f5f5f5;
+}
+.skill-name{
+   font-size: 0.65rem;
+   text-align: left;
+   padding-bottom: 0.5rem;
+}
+.skill-item{
+    padding: 00.5rem;
+}
+.progress-bar{
+    border: 1px solid #fff;
+    height: 4px;
+    background-color: #f5f5f5;
+ 
+}
+ /* Right Section */
+.right-section{
+    grid-column: span 1/ span 2;
+    background-color: #f7f7f7;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-titel{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.education sect{
+    background-color: bisque;
+}
+
+@media screen and (min-width: 0px)and (max-width: 673px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
